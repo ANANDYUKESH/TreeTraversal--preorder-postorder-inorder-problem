@@ -15,7 +15,7 @@ class TreeNode{
         left=right=null;
     }
 }
-public class TreeTraversal3{
+public class TreeTraversal{
     
     public static void preorder(TreeNode node){
         if(node==null)
@@ -49,7 +49,7 @@ public class TreeTraversal3{
         root.right.right=new TreeNode(7);
         root.right.right.left=new TreeNode(9);
         root.right.right.right=new TreeNode(10);
-        TreeTraversal3 tree=new TreeTraversal3();
+        TreeTraversal tree=new TreeTraversal();
         System.out.print("Preorder traversal:");
         tree.preorder(root);
         System.out.print("inorder traversal:");
